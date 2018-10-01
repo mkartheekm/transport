@@ -7,7 +7,7 @@ from find_ip_address import get_ip_address
 from logging_frame import setup_logger
 import threading
 __version__ = "1.0.0"
-
+print "hi"
 logger = setup_logger("chat_client.py", log_file="chat_logging.log")
 
 
